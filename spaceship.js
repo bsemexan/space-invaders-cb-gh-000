@@ -11,7 +11,7 @@ class Spaceship {
     crew.length ? (this.docked = false) : (this.docked = true)
     this.notifyCrew()
   }
-  notifyCrew{
+  notifyCrew(){
     this.crew.forEach(crewMember => (crewMember.currentShip = this));
   }
 }
