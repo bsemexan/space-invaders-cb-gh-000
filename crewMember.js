@@ -4,7 +4,11 @@ class CrewMember {
     this.currentShip = "Looking for a Rig"
   }
 
-  chargePhasers(){}
+  chargePhasers(){
+    return this.position === "Gunner" && this.currentShip !== "Looking for a Rig"
+      ? (this.currentShip.phasersCharge = "charged")
+      : "had no effect";
+  }
 
   engageWarpDrive(){
     return this.position === "Pilot" && this.currentShip !== "Looking for a Rig"
