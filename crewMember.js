@@ -12,5 +12,9 @@ class CrewMember {
       : "had no effect";
   }
 
-  setsInvisibility(){}
+  setsInvisibility(){
+    return this.position === "Defender" && this.currentShip !== "Looking for a Rig"
+      ? (this.currentShip.cloaked = true)
+      : "had no effect";
+  }
 }
