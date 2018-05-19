@@ -9,5 +9,6 @@ class Spaceship {
     this.docked = docked
     this.phasersCharge = "uncharged"
     crew.length ? (this.docked = false) : (this.docked = true)
+    this.notifyCrew()
   }
 }
