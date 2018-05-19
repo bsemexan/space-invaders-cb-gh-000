@@ -6,6 +6,6 @@ class Spaceship {
     this.cloaked = false;
     this.warpDrive = "disengaged"
     this.docked = docked
-    this.phasersCharge = phasersCharge
+    this.phasersCharge = "uncharged"
   }
 }
