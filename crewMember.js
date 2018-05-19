@@ -1,7 +1,7 @@
 class CrewMember {
   constructor(position){
     this.position = position
-    this.currentShip = 
+    this.currentShip = "Looking for a Rig"
   }
 
   chargePhasers(){}
