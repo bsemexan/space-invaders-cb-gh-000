@@ -6,4 +6,6 @@ class CrewMember {
   chargePhasers(){}
 
   engageWarpDrive(){}
+
+  setsInvisibility(){}
 }
