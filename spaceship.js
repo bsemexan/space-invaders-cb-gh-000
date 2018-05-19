@@ -3,8 +3,9 @@ class Spaceship {
     this.name = name
     this.phasers = phasers
     this.shields = shields
+    this.cloaked = false;
     this.warpDrive = warpDrive
     this.docked = docked
-    this.phasersCharge = phasersCharge 
+    this.phasersCharge = phasersCharge
   }
 }
